@@ -1,4 +1,4 @@
-# Figma UX Template Replication ssing HTML &amp; CSS (Flexbox)
+# Figma UX Template Replication using HTML &amp; CSS (Flexbox)
 
 # Partners Section Completed
 
