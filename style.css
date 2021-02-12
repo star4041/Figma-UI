@@ -38,6 +38,142 @@ p{
     color: #374754;
 }
 
+/* ------------------------------------------------subscribe---------------------------------------------------- */
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 571px;
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+    color: white !important;
+}
+
+.sub-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 531px;   
+    height: auto;
+    left: calc(50% - 531px/2);
+    top: 11px;
+}
+
+.sub-contain1{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-resp{
+    display: none;
+}
+
+.sub-contain2{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.sub-contain2 h3{
+    margin: 0px;
+}
+
+.sub-desk{
+    margin-top: 10px !important;
+}
+
+.sub-1-h3 {
+	margin: 0px;
+}
+
+.sub-p{
+    color: white !important;
+    margin-top: 5px;
+    margin-bottom: 40px;    
+}
+
+.sub-input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 19px 35px;
+    width: 353px;
+    height: 54px;    
+    background: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 39px;
+    flex-grow: 0;
+    margin-top: 34;
+}
+
+.sub-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17px 35px;
+
+    width: 353px;
+    height: 50px;
+   
+
+
+    background: #EF2779;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    
+    margin: 12px 0px;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+
+
+    letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 800px){
+
+    .sub-container{
+        height: 571px;
+    }
+
+    .sub-content{
+        width: 100%;
+    }
+
+    .sub-desk{
+        display: none;
+    }
+
+    .sub-resp{
+        display: block;
+        padding-left: 10px;
+        margin-right: 10px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    .sub-input{
+        width: 300px;
+    }
+
+    .sub-btn{
+        width: 300px;
+    }
+
+}
+
+
+/* ------------------------------------------------Partners----------------------------------------------------- */
 .container4{
     /*width: 1440px;*/
     height: 1297px;

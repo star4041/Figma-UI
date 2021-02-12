@@ -3,7 +3,7 @@
 # Live URL : https://trusting-austin-cb198c.netlify.app/
 
 
-# Partners, Testimonial & Pricing Section Completed
+# Subscribe, Partners, Testimonial, Pricing & Contact Us Section Completed
 
 ![Screenshot 1](./img/1.png)
 
