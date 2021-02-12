@@ -14,6 +14,13 @@ h2{
     text-align: center;
 }
 
+h3{
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: 0.1px;
+}
+
 h4{
     font-weight: 700;
     font-size: 16px;
@@ -36,6 +43,40 @@ p{
     letter-spacing: 0.2px; 
     text-align: center;
     color: #374754;
+}
+
+
+/* --------------------------------------------- Feature ---------------------------------------------------------- */
+.wrapper-1 {
+	padding: 5px;
+	max-width: 960px;
+	width: 95%;
+	margin: 20px auto;
+}
+header {
+	padding: 0 15px;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column {
+	flex: 1;
+	margin: 2px;
+	padding: 10px;	
+}
+
+.feat-h4{
+	color: #374754;
+}
+
+.feat-svg {
+	margin-top: 32px;
+	margin-right: 10px;
 }
 
 /* ------------------------------------------------subscribe---------------------------------------------------- */
@@ -71,7 +112,7 @@ p{
 }
 
 .sub-contain2{
-    margin-top: 60px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,6 +190,10 @@ p{
     .sub-content{
         width: 100%;
     }
+
+	.sub-contain2{
+    margin-top: 60px;
+	}
 
     .sub-desk{
         display: none;
