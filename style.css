@@ -1213,11 +1213,12 @@ textarea::placeholder{
      {
         .footer {
         flex-wrap: wrap;
+		width: 90%;
         }
 
         .addressBox
     {
-        width: 35vw;
+        width: 40vw;
     }
 
     .pages, .footerImg{
