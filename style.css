@@ -44,8 +44,345 @@ p{
     text-align: center;
     color: #374754;
 }
+/* --------------------------------------------- Homepage ----------------------------------------------------------*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./images/bg1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 5px; 
+    padding-bottom: 150px;
+  }
+
+  .freedesign {
+    margin-top: 120px;
+  }
 
 
+  .f3d3{
+      margin-left: 100px !important ;
+      border-left-width: 0px !important;
+      width: 300px !important;
+  }
+  
+  .f1b1 {
+    margin-top: 60px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    margin: 0px 0px;
+    color: #38A3F1;
+    font-weight: bold;
+    font-size: 22px;
+    /* line-height: 33px; */
+    text-align: center;
+    letter-spacing: 0.1px;
+    border: none;
+    width: 250px;
+  }
+
+  .resp-text{
+    display: none;
+  }
+
+
+@media screen and (max-width:800px){
+  .freedesign {
+    width: 90%;
+    height: 211.89px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .flex-container > div1 {
+    width: 100%;
+    margin: 5px;
+    font-size: 8px;
+    text-align: center;
+    margin-bottom: 0;
+     margin-top: 0;
+     padding: 0px 0px 0px 20px !important;
+  }
+
+  .resp-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 318px;
+    height: 201px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 7px 0px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+  .flex-container > div1 {
+    width: 100%;
+    margin: 5px;
+    font-size: 8px;
+    text-align: center;
+    padding: 38px;
+  }
+  
+ 
+  
+  .flex-container > div3 {
+    width: 500px;
+    margin: 10px;
+    margin-left: 40px;
+    text-align: left;
+    padding-top: 180px;
+    line-height: 20px;
+  }
+
+ 
+  
+  .content {
+    width: 94%;
+
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+  }
+  
+  .logo {
+    line-height: 60px;
+  
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  
+  nav {
+    width: 100%;
+    line-height: 60px;
+  }
+  
+  nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+  
+  }
+  
+  nav.black ul {
+    background: #000;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 16px 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+  }
+  
+  .button1 {
+      background-color: white;
+    border-radius: 2px;
+  }
+
+  .f1p2
+  {
+    margin-top: 20px;
+  }
+  
+  
+  @media screen and (max-width:800px){
+  
+    .flex-container
+    {
+      background-image: url(./images/bg2.png);
+    }
+  
+    .f3img
+    {
+      height: 100%;
+      width: 100%;
+    }
+    .c4h4
+    {
+      margin: 10px;
+    }
+  
+    .text-context {
+      margin-top: 0px;
+    }
+  
+    .flex-container > div3
+    {
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+    }
+  
+     .f1b1
+    {
+      padding: 16px 0px;
+      background: #38A3F1;
+      border-radius: 35px;
+      width: 236px;
+      border-style: none;
+      height: 65px;
+      font-size: 22px;
+      line-height: 33px;
+      letter-spacing: 0.1px;
+      font-weight: 700;
+        color: white;
+        cursor: pointer;
+      margin-left: auto !important;
+      margin-right: auto !important;  
+      margin-top: 25px !important;
+    }
+  
+    .f3d3{
+      margin-left: 0px !important;
+      width: 100% !important;
+    }
+  
+   
+    .f1p1
+    {
+      display: none;
+      /* margin-top: 10px;
+      margin-bottom: 30px; */
+    }
+  
+    .f1p2
+    {
+      display: none;
+      /* font-size: 17px; 
+      margin: 0px; */
+    }
+
+  }
+
+  .nav {
+    height: 50px;
+    width: 100%;
+  
+    position: relative;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 50px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 80%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  
 /* --------------------------------------------- Feature ---------------------------------------------------------- */
 .wrapper-1 {
 	padding: 5px;
