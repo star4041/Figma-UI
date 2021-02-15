@@ -3,7 +3,7 @@
 # Live URL : https://trusting-austin-cb198c.netlify.app/
 
 
-# Desktop UI
+# Desktop UI 1920 x 1080 
 
 ![Screenshot 1](./img/1.png)
 
