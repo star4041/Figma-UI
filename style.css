@@ -337,7 +337,7 @@ p{
     display: none;
   }
   
-  @media (max-width:1366px) {
+  @media (max-width:1365px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
@@ -1274,19 +1274,26 @@ h5{
 	color: white;
 	margin-left:35px;
 	margin-top: -34px;
+  font-size: 12px;
+  padding-left: 10px;
 }
 .text2
 {
-	color: white;
-	margin-left:35px;
-	margin-top: -32px;
-	line-height: 26px;
+	  color: white;
+    margin-left: 35px;
+    margin-top: -32px;
+    font-size: 13px;
+    line-height: 20px;
+    padding-left: 10px;
 }
 .text3
 {
 	color: white;
 	margin-left:35px;
 	margin-top: -26px;
+  line-height: 17px;
+  font-size: 13px;
+  padding-left: 10px;
 }
 
 .contactform::placeholder{
@@ -1460,17 +1467,18 @@ textarea::placeholder{
     }
 
     .address h5
-    {
-			font-family: Roboto;
-			font-style: normal;
-			font-weight: bold;
-			font-size: 12px;
-			line-height: 18px;
-			letter-spacing: 0.1px;
-			color: #374754;
-			margin-left: 10px;
-			margin-top: 10px;
-    }
+      {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 21px;
+        letter-spacing: 0.1px;
+        color: #374754;
+        margin-left: 10px;
+        margin-top: 10px;
+        
+      }
     .address
     {
         margin: 0 10px;
@@ -1667,3 +1675,20 @@ textarea::placeholder{
           width: auto;
         }
       }
+
+@media screen and (max-width: 477px){
+  .one {
+    margin-bottom: 25px !important;
+  }
+
+  .two {
+    margin-top: 35px !important;
+  }
+}
+
+
+@media  only screen and (min-width:901px) and (max-width:1274px){
+    .one {
+      margin-bottom: 33px !important;
+    }
+  }
