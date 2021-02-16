@@ -5,9 +5,13 @@
 
 # Desktop UI 1920 x 1080 
 
-![Screenshot 1](./img/1.png)
+![desktop view](./img/1.png)
 
-# Responsive 
+# Tablet Responsive 
 
-![Screenshot 2](./img/2.png)
+![tablet view](./img/3.png)
+
+# Mobile Responsive 
+
+![mobile view](./img/2.png)
 
