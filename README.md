@@ -1,6 +1,6 @@
 # Figma UX Template Replication using HTML &amp; CSS (Flexbox)
 
-# Live URL : https://trusting-austin-cb198c.netlify.app/
+# Live URL : https://psd2htmlcss.netlify.app/
 
 
 # Desktop UI 1920 x 1080 
